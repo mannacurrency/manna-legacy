@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.4.0
+!define VERSION 0.8.0
 !define COMPANY "Manna project"
 !define URL https://github.com/mannacurrency/manna
 
