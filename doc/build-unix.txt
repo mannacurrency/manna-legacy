@@ -72,7 +72,7 @@ If using Boost 1.37, append -mt to the boost libraries in the makefile.
 Dependency Build Instructions: Gentoo
 -------------------------------------
 
-Note: Currently, there is no grantcoin ebuild available in overlay 
+Note: Currently, there is no manna ebuild available in overlay 
 
 emerge -av1 --noreplace dev-libs/boost dev-libs/glib dev-libs/openssl sys-libs/db:4.8
 
