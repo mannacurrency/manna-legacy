@@ -79,14 +79,14 @@ emerge -av1 --noreplace dev-libs/boost dev-libs/glib dev-libs/openssl sys-libs/d
 Note: If you like to have UPnP support, you need to install net-libs/miniupnpc.
  
 Take the following steps to build (no UPnP support):
- cd grantcoin/src
+ cd manna/src
  make -f makefile.unix USE_UPNP= BDB_INCLUDE_PATH='/usr/include/db4.8'
- strip grantcoind
+ strip mannad
 
 
 Notes
 -----
-The release is built with GCC and then "strip grantcoind" to strip the debug
+The release is built with GCC and then "strip mannad" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
