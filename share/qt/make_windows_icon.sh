@@ -1,9 +1,9 @@
 #!/bin/bash
 # create multiresolution windows icon
-ICON_SRC=../../src/qt/res/icons/grantcoin.png
-ICON_DST=../../src/qt/res/icons/grantcoin.ico
-convert ${ICON_SRC} -resize 16x16 grantcoin-16.png
-convert ${ICON_SRC} -resize 32x32 grantcoin-32.png
-convert ${ICON_SRC} -resize 48x48 grantcoin-48.png
-convert grantcoin-48.png grantcoin-32.png grantcoin-16.png ${ICON_DST}
+ICON_SRC=../../src/qt/res/icons/manna.png
+ICON_DST=../../src/qt/res/icons/manna.ico
+convert ${ICON_SRC} -resize 16x16 manna16.png
+convert ${ICON_SRC} -resize 64x64 manna64.png
+convert ${ICON_SRC} -resize 128x128 manna128.png
+convert manna128.png manna64.png manna16.png ${ICON_DST}
 
