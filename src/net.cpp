@@ -1000,6 +1000,7 @@ void MapPort(bool /* unused fMapPort */)
 static const char *strDNSSeed[][2] = {
     {"seed1", "seed1.mannacurrency.net"},
     {"seed2", "seed2.mannacurrency.net"},
+    {"seed3", "seed3.mannacurrency.net"},
 //    {"seedgrt", "seedgrt.manna.net"},
 //    {"tnseed", "tnseed.manna.net"},
 //    {"tnseedgrt", "tnseedgrt.manna.net"},
