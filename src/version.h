@@ -15,7 +15,7 @@
 // These need to be macro's, as version.cpp's voodoo requires it
 #define CLIENT_VERSION_MAJOR       0
 #define CLIENT_VERSION_MINOR       8
-#define CLIENT_VERSION_REVISION    0
+#define CLIENT_VERSION_REVISION    2
 #define CLIENT_VERSION_BUILD       0
 
 static const int CLIENT_VERSION =
@@ -31,7 +31,7 @@ extern const std::string CLIENT_DATE;
 // manna version - intended for display purpose ONLY
 #define MANNA_VERSION_MAJOR       0
 #define MANNA_VERSION_MINOR       8
-#define MANNA_VERSION_REVISION    0
+#define MANNA_VERSION_REVISION    2
 #define MANNA_VERSION_BUILD       0
 
 static const int MANNA_VERSION =
