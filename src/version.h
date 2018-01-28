@@ -34,7 +34,7 @@ extern const std::string CLIENT_DATE;
 #define MANNA_VERSION_REVISION    0
 #define MANNA_VERSION_BUILD       0
 
-static const int GRANTCOIN_VERSION =
+static const int MANNA_VERSION =
                            1000000 * MANNA_VERSION_MAJOR
                          +   10000 * MANNA_VERSION_MINOR
                          +     100 * MANNA_VERSION_REVISION
