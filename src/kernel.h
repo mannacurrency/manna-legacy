@@ -2,8 +2,8 @@
 // Copyright (c) 2015 The Manna developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef GRANTCOIN_KERNEL_H
-#define GRANTCOIN_KERNEL_H
+#ifndef MANNA_KERNEL_H
+#define MANNA_KERNEL_H
 
 #include "main.h"
 
@@ -46,4 +46,4 @@ unsigned int GetStakeModifierChecksum(const CBlockIndex* pindex);
 // Check stake modifier hard checkpoints
 bool CheckStakeModifierCheckpoints(int nHeight, unsigned int nStakeModifierChecksum);
 
-#endif // GRANTCOIN_KERNEL_H
+#endif // MANNA_KERNEL_H
