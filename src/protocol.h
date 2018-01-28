@@ -15,7 +15,7 @@
 #include <string>
 #include "uint256.h"
 
-#define GRANTCOIN_PORT  9982
+#define MANNA_PORT  9982
 #define RPC_PORT     9983
 #define TESTNET_PORT 9984
 #define TESTNET_RPC_PORT 9985
@@ -26,7 +26,7 @@ void GetMessageStart(unsigned char pchMessageStart[], bool fPersistent = false);
 
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
-    return testnet ? TESTNET_PORT : GRANTCOIN_PORT;
+    return testnet ? TESTNET_PORT : MANNA_PORT;
 }
 
 
